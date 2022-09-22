@@ -2,4 +2,4 @@
 
 Evan's WWD 130-06 website
 
-https://hutonahill.github.io/wwd130/
+https://hutonahill.github.io/wdd130/
