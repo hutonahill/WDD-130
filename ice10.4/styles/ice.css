@@ -19,7 +19,7 @@ h1 {
     font-size: 12pt;
 }
 
-.entry-content {
+ol {
     width: 400px; 
 	margin-left: auto; 
 	margin-right: auto;
