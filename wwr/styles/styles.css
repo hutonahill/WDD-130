@@ -61,7 +61,10 @@ footer p a:hover {
 .icon {
     width: 80px;
 }
-.book, .join {
+.book {
+    background-color: var(--background-color);
+} 
+.join {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     text-decoration: none;
