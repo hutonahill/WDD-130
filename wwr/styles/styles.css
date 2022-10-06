@@ -44,9 +44,6 @@ footer a:hover{
 footer p {
     font-size: 1.2em;
 }
-footer p a:hover {
-    
-}
 .home-title {
     color: var();
 }
@@ -81,6 +78,9 @@ footer p a:hover {
 }
 .msg p {
     color: var();
+}
+#socal-logo{
+    width: 30px;
 }
 #background {
     height: 725px;
