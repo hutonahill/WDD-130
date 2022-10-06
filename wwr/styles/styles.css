@@ -5,6 +5,7 @@
     --backround-color: #F0FDFF;
 }
 
+/* HTML */
 body {
     background-color: var(--backround-color);
 }
@@ -44,8 +45,13 @@ footer a:hover{
 footer p {
     font-size: 1.2em;
 }
+
+/* class */
 .home-title {
     color: var();
+}
+.content {
+    max-width: 1600px;
 }
 .button-box {
     text-align: center;
@@ -82,6 +88,8 @@ footer p {
 .socal-logo{
     width: 30px;
 }
+
+/* ID */
 #background {
     height: 725px;
     background-color: var(--primary-color);
