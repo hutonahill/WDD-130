@@ -3,6 +3,7 @@
     --secondary-color: #fce172 ;
     --accent-color: #78c5d7;
     --backround-color: #F0FDFF;
+    --primary-color-75-opasity: #134266C0
 }
 
 /* HTML */
@@ -10,15 +11,18 @@ body {
     background-color: var(--backround-color);
 }
 header {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-75-opasity);
 }
-nav a {
+header nav a {
     text-align: center;
+    text-decoration: none;
     color: var(--secondary-color);
     text-decoration: none;
 }
-nav a:hover{
+header nav a:hover{
+    text-align: center;
     background-color: var(--secondary-color);
+    text-decoration: none;
     color: var(--primary-color);
 }
 main section {
