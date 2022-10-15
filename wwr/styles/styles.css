@@ -2,13 +2,17 @@
     --primary-color: #134266   ;
     --secondary-color: #fce172 ;
     --accent-color: #78c5d7;
-    --backround-color: #F0FDFF;
+    --backround-color: #e1fbff;
     --primary-color-75-opasity: #134266C0
 }
 
 /* HTML */
 body {
     background-color: var(--backround-color);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: var(--primary-color-75-opasity);
@@ -18,6 +22,7 @@ header nav a {
     text-decoration: none;
     color: var(--secondary-color);
     text-decoration: none;
+    padding: 35px;
 }
 header nav a:hover{
     text-align: center;
@@ -33,7 +38,7 @@ h4{
 }
 footer {
     background-color: var(--primary-color);
-    
+    padding: 25px 50px;
 }
 footer h3{
     color: var(--backround-color);
@@ -49,16 +54,30 @@ footer a:hover{
 footer p {
     font-size: 1.2em;
 }
+footer .socal img{
+    padding-top: 15px;
+}
 
 /* class */
 .home-title {
     color: var();
+    font-size: 2em;;
+    font-family: Tahoma, Verdana, sans-serif;
+    margin-top: 10px;
 }
 .content {
     max-width: 1600px;
 }
 .button-box {
     text-align: center;
+    background-color: var(--background-color);
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-width: 200px;
+    margin: auto;
 }
 .logo {
     text-align: center;
@@ -67,27 +86,40 @@ footer p {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
-.book {
-    background-color: var(--background-color);
-} 
+.river-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 8px solid black;
+}
+
 .join {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.book:hover, .join:hover{
+.button-box:hover, .join:hover{
     background-color: var(--secondary-color);;
     color: var(--primary-color);
 }
 .msg {
     background-color: var(--primary-color);
+    padding: 35px;
 }
 .msg h2{
     color: var();
+    font-family: Tahoma, Verdana, sans-serif;
 }
 .msg p {
     color: var();
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 .socal-logo{
     width: 30px;
@@ -100,7 +132,9 @@ footer p {
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+
 }
 #hero-img {
     width: 100%;
+    background-color: white;
 }
