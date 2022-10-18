@@ -1,0 +1,37 @@
+nav {
+    max-width: 200px;
+    box-sizing: content-box;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+section {
+    justify-content: center;
+}
+
+span {
+    max-width: 500px;
+    box-sizing: content-box;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a div:hover {
+    background-color: black;
+    color: white;
+}
+
+nav a div {
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    width: 200px;
+    margin-top: 5px;
+}

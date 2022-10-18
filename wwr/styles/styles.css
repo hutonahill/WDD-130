@@ -1,9 +1,10 @@
-:root{
-    --primary-color: #134266   ;
-    --secondary-color: #fce172 ;
+:root {
+    --primary-color: #134266;
+    --secondary-color: #fce172;
     --accent-color: #78c5d7;
     --backround-color: #e1fbff;
-    --primary-color-75-opasity: #134266C0
+    --primary-color-75-opasity: #134266C0;
+    --button-box-width: 100px;
 }
 
 /* HTML */
@@ -14,9 +15,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: var(--primary-color-75-opasity);
 }
+
 header nav a {
     text-align: center;
     text-decoration: none;
@@ -24,71 +27,92 @@ header nav a {
     text-decoration: none;
     padding: 35px;
 }
-header nav a:hover{
+
+header nav a:hover {
     text-align: center;
     background-color: var(--secondary-color);
     text-decoration: none;
     color: var(--primary-color);
 }
+
 main section {
     text-align: center;
 }
+
 footer {
     background-color: var(--primary-color);
     padding: 25px 50px;
 }
-footer h3{
+
+footer h3 {
     color: var(--backround-color);
 }
-footer a{
+
+footer a {
     color: var(--secondary-color);
     text-decoration: none;
 }
-footer a:hover{
+
+footer a:hover {
     color: var(--primary-color);
     background-color: var(--secondary-color);
 }
+
 footer p {
     font-size: 1.2em;
 }
-footer .socal img{
+
+footer .socal img {
     padding-top: 15px;
 }
 
 /* class */
 .home-title {
-    font-size: 2em;;
+    font-size: 2em;
+    ;
     font-family: Tahoma, Verdana, sans-serif;
     margin-top: 10px;
 }
+
 .content {
     max-width: 1600px;
 }
+
 .button-box {
     text-align: center;
     background-color: var(--background-color);
     font-size: 18px;
-    padding: 15px;
+    padding: 10px;
     margin-top: 50px;
     border-radius: 5px;
     border: 2px solid black;
     margin-bottom: 10px;
-    max-width: 100px;
+    max-width: var(--button-box-width);
+}
+
+.button-box-box {
+    max-width: var(--button-box-width);
     margin: auto;
 }
+
 .logo {
     text-align: center;
     width: 80px;
     background-color: var(--primary-color);
 }
+
 .icon {
     width: 80px;
     padding-top: 10px;
 }
-.river-card, .camping-card, .rapids-card{
+
+.river-card,
+.camping-card,
+.rapids-card {
     margin: 200px 0;
 }
-.card-img{
+
+.card-img {
     border: 8px solid black;
 }
 
@@ -102,22 +126,28 @@ footer .socal img{
     border-radius: 5px;
     border: 1px solid black;
 }
-.button-box:hover, .join:hover{
-    background-color: var(--secondary-color);;
+
+.button-box:hover,
+.join:hover {
+    background-color: var(--secondary-color);
     color: var(--primary-color);
 }
+
 .msg {
     background-color: var(--primary-color);
     padding: 35px;
 }
-.msg h2{
+
+.msg h2 {
     font-family: Tahoma, Verdana, sans-serif;
 }
+
 .msg p {
     font-size: 0.8em;
     padding-bottom: 15px;
 }
-.socal-logo{
+
+.socal-logo {
     width: 30px;
 }
 
@@ -126,10 +156,14 @@ footer .socal img{
     height: 725px;
     background-color: var(--primary-color);
 }
-#hero-msg h1, #hero-msg h4 {
+
+#hero-msg h1,
+#hero-msg h4 {
     text-align: center;
 
 }
+
+
 #hero-img {
     width: 100%;
     background-color: white;
