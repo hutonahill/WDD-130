@@ -2,6 +2,7 @@
 
 img {
     width: 100%;
+    background-color: white;
 }
 
 section {
@@ -19,8 +20,8 @@ section {
 
 .myGrid {
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
-    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
 }
 
 .main {
@@ -30,14 +31,14 @@ section {
     grid-row: 2/3;
 
     font-family: 'Playfair Display', serif;
-    font-size: 60pt;
+    font-size: 400%;
 }
 
 .sub {
     grid-column: 7/11;
     grid-row: 4/5;
 
-    font-size: 30pt;
+    font-size: 280%;
     font-family: 'Alkalami', serif;
     color: red;
 }
