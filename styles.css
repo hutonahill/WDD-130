@@ -6,10 +6,6 @@ nav {
     padding: 0;
 }
 
-section {
-    justify-content: center;
-}
-
 span {
     max-width: 500px;
     box-sizing: content-box;
