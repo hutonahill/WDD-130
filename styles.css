@@ -6,12 +6,13 @@ nav {
     padding: 0;
 }
 
-span {
-    max-width: 500px;
+.headder {
+    max-width: 590px;
     box-sizing: content-box;
     text-align: center;
     justify-content: center;
     margin: auto;
+    padding: 0;
 }
 
 nav a {
