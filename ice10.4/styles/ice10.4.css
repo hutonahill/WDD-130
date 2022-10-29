@@ -1,0 +1,51 @@
+header {
+    font-size: 50pt;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+header:hover {
+    color: black;
+}
+
+h1 {
+    font-size: 8pt;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.nelson {
+    font-size: 12pt;
+}
+
+ol {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: black;
+    line-height: 30px;
+}
+
+h3 {
+    width: 295px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25pt;
+}
+
+p {
+    color: black;
+    font-size: small;
+}
+
+body {
+    background-color: #faa7c9;
+    text-align: center;
+    color: white;
+
+}
