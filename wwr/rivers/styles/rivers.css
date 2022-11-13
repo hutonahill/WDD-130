@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #134266;
+    --secondary-color: #fce172;
+    --accent-color: #78c5d7;
+    --backround-color: #e1fbff;
+    --primary-color-75-opasity: #134266C0;
+    --button-box-width: 100px;
+}
+
+body {
+    background-color: var(--backround-color);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}

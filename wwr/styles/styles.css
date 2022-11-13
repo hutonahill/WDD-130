@@ -17,73 +17,13 @@ body {
     text-decoration: none;
 }
 
-header {
-    background-color: var(--primary-color-75-opasity);
-    display: grid;
-    grid-template-columns: 150px auto;
-    grid-template-rows: 1fr;
-}
 
-header nav {
-    grid-row: 1/2;
-    grid-column: 2/3;
-    display: flex;
-    justify-content: space-around;
-}
-
-header nav a {
-    text-align: center;
-    text-decoration: none;
-    color: var(--secondary-color);
-    text-decoration: none;
-    padding: 35px;
-}
-
-header nav a:hover {
-    text-align: center;
-    background-color: var(--secondary-color);
-    text-decoration: none;
-    color: var(--primary-color);
-}
 
 main section {
     text-align: center;
 }
 
-footer {
-    background-color: var(--primary-color);
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
-footer p a {
-    text-decoration: none;
-}
-
-footer h3 {
-    color: var(--backround-color);
-}
-
-footer .socal-logo {
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-
-footer .socal-logo:hover {
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-}
-
-footer p {
-    font-size: 1.2em;
-}
-
-footer .socal img {
-    padding-top: 15px;
-}
 
 
 
@@ -125,12 +65,6 @@ footer .socal img {
 
 .button-box-box a {
     text-decoration: none;
-}
-
-.logo {
-    text-align: center;
-    width: 80px;
-    background-color: var(--primary-color);
 }
 
 .icon {
@@ -222,20 +156,7 @@ footer .socal img {
     color: var(--primary-color);
 }
 
-.social {
-    display: grid;
-    grid-template-columns: 30px 30px 30px;
-    gap: 2px;
-}
 
-.socal-logo-box {
-    width: 30px;
-    aspect-ratio: 1/1;
-}
-
-.socal-logo {
-    width: 30px;
-}
 
 /* ID */
 #background {
@@ -282,31 +203,14 @@ footer .socal img {
 
 }
 
-#logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-    grid-row: 1/2;
-    grid-column: 1/2;
 
-}
 
 #backround {
     grid-row: 4/9;
     grid-column: 1/11;
 }
 
-#reddit {
-    grid-column: 1/2;
-}
 
-#shard {
-    grid-column: 2/3;
-}
-
-#github {
-    grid-column: 3/4;
-}
 
 
 @media screen and (max-width: 900px) {
@@ -362,7 +266,4 @@ footer .socal img {
         margin: 0 auto;
     }
 
-    footer {
-        margin-top: 25px;
-    }
 }
