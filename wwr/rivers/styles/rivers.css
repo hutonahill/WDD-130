@@ -15,3 +15,30 @@ body {
     padding: 0;
     text-decoration: none;
 }
+
+h1 {
+    text-align: center;
+}
+
+body section {
+    width: 500px;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+}
+
+.content {
+    max-width: 1600px;
+}
+
+.salmon-img {
+    width: 500px;
+}
+
+.desolation-img {
+    width: 500px;
+}
+
+.grand-img {
+    width: 500px;
+}
