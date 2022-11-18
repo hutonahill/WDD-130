@@ -5,6 +5,10 @@
     width: 300px;
 }
 
+body section h1 {
+    font-family: Chalktastic, 'Times New Roman', Times, serif;
+}
+
 .siteButtons {
     display: grid;
     grid-template-columns: auto 300px auto 300px auto;
@@ -15,12 +19,16 @@
 
 .card-img {
     border: 10px solid #b4b4b4;
-    transition: transform .6s;
-    box-shadow: 5px 5px 10px #6f7364;
+    transition: .6s;
+    box-shadow: 5px 5px 10px #b4b4b4;
 }
 
 .card-img:hover {
     transform: scale(1.1);
+}
+
+body section p {
+    text-align: left;
 }
 
 #mechanics-card {

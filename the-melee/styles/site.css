@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+@font-face {
+    font-family: Chalktastic;
+    src: url(Chalktastic.ttf);
+}
+
 :root {
     --primary-color: #134266;
     --secondary-color: #fce172;
@@ -28,8 +35,8 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 120px auto;
-    grid-template-rows: 120px;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px;
 }
 
 .logoLink {
@@ -47,28 +54,29 @@ header {
 
 nav {
     display: grid;
-    grid-template-columns: auto 120px auto 120px auto 120px auto 120px auto;
-    grid-template-rows: 120px;
+    grid-template-columns: auto 150px auto 150px auto 150px auto 150px auto;
+    grid-template-rows: 100px;
     grid-column: 2/3;
     grid-row: 1/2;
+    font-family: Chalktastic, 'Times New Roman', Times, serif;
 }
 
 .navButtons {
     text-align: center;
     text-decoration: none;
     height: 100%;
+    width: 100%;
     color: lightgrey;
     border: 0.5px solid lightgray;
     border-radius: 15px;
     vertical-align: middle;
-    aspect-ratio: 1/1;
 
 }
 
 .navButtons p {
-    line-height: 120px;
+    line-height: 100px;
     margin: 0px;
-    font-size: 18pt;
+    font-size: 15pt;
 }
 
 .navButtons:hover {
