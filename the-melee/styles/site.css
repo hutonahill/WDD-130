@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #134266;
+    --secondary-color: #fce172;
+    --accent-color: #78c5d7;
+    --backround-color: #e1fbff;
+    --primary-color-75-opasity: #134266C0;
+    --button-box-width: 100px;
+}
+
+body {
+    background-color: var(--backround-color);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-image: url(../images//blackbord.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: lightgray;
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 120px auto;
+    grid-template-rows: 120px;
+}
+
+.logoLink {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+
+.navLogo {
+    aspect-ratio: 1/1;
+    height: 100%;
+    background-color: transparent;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto 120px auto 120px auto 120px auto 120px auto;
+    grid-template-rows: 120px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.navButtons {
+    text-align: center;
+    text-decoration: none;
+    height: 100%;
+    color: lightgrey;
+    border: 0.5px solid lightgray;
+    border-radius: 15px;
+    vertical-align: middle;
+    aspect-ratio: 1/1;
+
+}
+
+.navButtons p {
+    line-height: 120px;
+    margin: 0px;
+    font-size: 18pt;
+}
+
+.navButtons:hover {
+    background-color: rgb(182, 182, 182);
+    color: rgb(61, 61, 61);
+}
+
+#homeButton {
+    grid-column: 2/3;
+}
+
+#mechanicsButton {
+    grid-column: 4/5;
+}
+
+#equationsButton {
+    grid-column: 6/7;
+}
+
+#contactButton {
+    grid-column: 8/9;
+}
+
+
+
+footer {
+    background-color: rgb(59, 59, 59);
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    gap: 8px;
+}
+
+.socal-logo-box {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.socal-logo {
+    width: 100%;
+}
+
+#reddit {
+    grid-column: 1/2;
+}
+
+#shard {
+    grid-column: 2/3;
+}
+
+#github {
+    grid-column: 3/4;
+}
