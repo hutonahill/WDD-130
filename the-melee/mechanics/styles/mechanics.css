@@ -1,0 +1,52 @@
+.text h1 {
+    text-align: center;
+}
+
+.text {
+    width: 700px;
+    margin: auto;
+}
+
+.topicCards {
+    display: grid;
+    grid-template-columns: auto 75px 75px 75px 75px 75px 75px 75px auto;
+    grid-template-rows: auto 400px 50px 175px 50px 400px auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card-img {
+    border: 8px solid #b4b4b4;
+    transition: .5s;
+    width: 100%
+}
+
+.card-img:hover {
+    transform: scale(1.1);
+}
+
+#warding-card {
+    grid-row: 2/3;
+    grid-column: 2/5;
+}
+
+#making-card {
+    grid-row: 2/3;
+    grid-column: 6/9;
+}
+
+#vigor-card {
+    grid-row: 4/5;
+    grid-column: 2/5;
+}
+
+#forbance-card {
+    grid-row: 4/5;
+    grid-column: 6/9;
+}
+
+#mechanics-card {
+    grid-row: 6/7;
+    grid-column: 4/7;
+}
